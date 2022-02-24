@@ -3,13 +3,11 @@
 
 #include "./linkedlist.h"
 
-
 /* Here is my destroy function */
 void destroy (int *ptr)
 {
 	free(ptr);
 }
-
 
 void main ()
 {
@@ -54,4 +52,7 @@ void main ()
 		node = list_next(node); /* This is how we are going to get the next elemetn */
 	}
 	puts("");
+
+	/* Here we destroy our object */
+	list_destroy(&l);
 }
