@@ -5,5 +5,6 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 # Data Structures:
 1. [Simple Linked List](./DataStructures/LinkedList/)
 2. [Doubly Linked List](./DataStructures/DoublyLinkedList/)
+3. [Circular list](./Datastructures/CircularLists/)
 # Book:
 [Mastering Algorithms with C](./Book/)
