@@ -7,5 +7,6 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 2. [Doubly Linked List](./DataStructures/DoublyLinkedList/)
 3. [Circular List](./DataStructures/CircularLists/)
 4. [Stack](./DataStructures/Stack/)
+5. [Queue](./DataStructures/Queue)
 # Book:
 [Mastering Algorithms with C](./Book/)
