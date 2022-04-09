@@ -5,7 +5,7 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 # Data Structures:
 1. [Simple Linked List](./DataStructures/LinkedList/)
 2. [Doubly Linked List](./DataStructures/DoublyLinkedList/)
-3. [Circular List](./DataStructures/CircularLists/)
+3. [Circular List](./DataStructures/CircularList/)
 4. [Stack](./DataStructures/Stack/)
 5. [Queue](./DataStructures/Queue)
 # Book:
