@@ -15,7 +15,7 @@ typedef struct ListElemt_ {
 /* This is the list structure that will manage all the list */
 typedef struct List_ {
 	int size;
-	int (*math) (const void *key1, const void *key2);
+	int (*match) (const void *key1, const void *key2);
 	void (*destroy) (void *data);
 	ListElemt *head;
 	ListElemt *tail;
