@@ -9,5 +9,6 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 4. [Stack](./DataStructures/Stack/)
 5. [Queue](./DataStructures/Queue)
 6. [Set](./DataStructures/Set)
+7. [HashTable](./DataStructures/HashTable)
 # Book:
 [Mastering Algorithms with C](./Book/)
