@@ -81,7 +81,7 @@ int bitree_ins_right (BiTree *tree, BiTreeNode *node, const void *data)
             return -1;
         position = &tree->root;
     } else {
-        if (bitree_left(node) != NULL)
+        if (bitree_right(node) != NULL)
             return -1;
         position = &node->right;
     }

@@ -1,7 +1,8 @@
 # Mastering-Algorithms-with-C
 Its just a bitagora of all the algorithms from the book called "Mastering Algorithms with C - Kyle Loudon"
 # Algorithms:
-1. [Insertion Sort](./Algorithms/insertionsort/)
+1. [Insertion Sort](./Algorithms/InsertionSort/)
+2. [Transverse BinaryTree](./Algorithms/TransverseBinaryTree)
 # Data Structures:
 1. [Simple Linked List](./DataStructures/LinkedList/)
 2. [Doubly Linked List](./DataStructures/DoublyLinkedList/)
