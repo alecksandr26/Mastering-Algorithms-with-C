@@ -10,5 +10,6 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 5. [Queue](./DataStructures/Queue)
 6. [Set](./DataStructures/Set)
 7. [HashTable](./DataStructures/HashTable)
+8. [BinaryTree](./DataStructures/BinaryTree)
 # Book:
 [Mastering Algorithms with C](./Book/)

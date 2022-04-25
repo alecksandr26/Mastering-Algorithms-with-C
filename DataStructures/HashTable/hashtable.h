@@ -21,7 +21,7 @@ typedef struct CHTbl_ {
    h: Is the hash function that we need to create
    match: A function that we use to match keys
    destroy: To destroy the content data
-   complexity: O(1)
+   complexity: O(m) where m is the number of buckets that we want to have
  */
 int chtbl_init (CHTbl *htbl, int buckets, int (*h)(const void *key),
                 int (*match)(const void *key1, const void *key2),
