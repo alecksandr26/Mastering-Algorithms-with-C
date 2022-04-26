@@ -18,6 +18,7 @@ int main ()
     int x3 = 5;
     int x4 = 10;
     int x5 = 11;
+    unsigned num;
 
     int *x_ptr;
 
@@ -37,16 +38,47 @@ int main ()
     /* Now lets test the merge */
     bitree_merge(&merge, &mytree2, &mytree, &x4);
 
-    puts("lets do a preorder...");
-    /* Now we are going to try to do a preorder into the merge tree */
-    list_init(&list, &destroy);
-    preorder(bitree_root(&merge), &list);
+    /* THIS IS IN PREORDER */
+    puts("[1] preorder");
+    puts("[2] inorder");
+    puts("[3] postorder");
 
-    for (ptr = list_head(&list); ptr != NULL; ptr = list_next(ptr)) {
-        x_ptr = (int *) list_data(ptr);
-        printf("%i\n", *x_ptr);
+    scanf("%u", &num);
+    switch (num) {
+    case 1:
+        /* THIS IS IN PREORDER */
+        puts("lets do a preorder...");
+        list_init(&list, NULL);
+        preorder(bitree_root(&merge), &list);
+
+        for (ptr = list_head(&list); ptr != NULL; ptr = list_next(ptr)) {
+            x_ptr = (int *) list_data(ptr);
+            printf("%i\n", *x_ptr);
+        }
+        break;
+    case 2:
+        /* THIS IS IN INORDER */
+        puts("lets do a inorder...");
+        list_init(&list, &destroy);
+        inorder(bitree_root(&merge), &list);
+
+        for (ptr = list_head(&list); ptr != NULL; ptr = list_next(ptr)) {
+            x_ptr = (int *) list_data(ptr);
+            printf("%i\n", *x_ptr);
+        }
+        break;
+    case 3:
+        /* THIS IS IN POSTORDER */
+        puts("lets do a postorder...");
+        list_init(&list, &destroy);
+        postorder(bitree_root(&merge), &list);
+
+        for (ptr = list_head(&list); ptr != NULL; ptr = list_next(ptr)) {
+            x_ptr = (int *) list_data(ptr);
+            printf("%i\n", *x_ptr);
+        }
+        break;
     }
-        
     
     return 0;
 }
