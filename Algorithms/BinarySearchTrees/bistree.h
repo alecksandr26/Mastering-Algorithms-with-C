@@ -1,14 +1,17 @@
 #ifndef __BISTREE_H__
 #define __BISTREE_H__
 
+#include <stdlib.h>
+#include <string.h>
+
 /* Here we need to the binary tree dependency */
 #include "../../DataStructures/BinaryTree/binarytree.h"
 
 
 /* Define balance factorss for avl trees */
 #define AVL_LFT_HEAVY 1
-#define ALV_BALANCED 0
-#define ALV_RGT_HEAVY -1
+#define AVL_BALANCED 0
+#define AVL_RGT_HEAVY -1
 
 
 /* the avlnode */
@@ -18,6 +21,8 @@ typedef struct AvlNode_ {
     int factor;
 } AvlNode;
 
+
+typedef BiTree BisTree;
 
 /* bistree_init: Initializes the binary search tree specified by tree
    tree: is the data structure
@@ -62,6 +67,7 @@ int bistree_lookup (const BisTree *tree, void **data);
    tree: the data structure
    complexity: Is O(1)
  */
-int bistree_size (const BisTree *tree);
+#define bistree_size(tree) ((tree)->size)
+
 
 #endif
