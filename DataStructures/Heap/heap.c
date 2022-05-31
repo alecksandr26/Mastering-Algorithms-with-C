@@ -132,12 +132,12 @@ int heap_extract (Heap *heap, void **data)
     
     /* And now reorder the list */
     while (1) {
-        if (lpos < heap_size(heap) && heap->compare(heap->tree[lpos], heap->tree[ipos]) > 0)
+        if ((lpos < heap_size(heap)) && (heap->compare(heap->tree[lpos], heap->tree[ipos]) > 0))
             mpos = lpos;
         else
-            mpos = rpos;
+            mpos = ipos;
         
-        if (rpos < heap_size(heap) && heap->compare(heap->tree[rops], heap->tree[mpos]) > 0)
+        if ((rpos < heap_size(heap)) && (heap->compare(heap->tree[rpos], heap->tree[mpos]) > 0))
             mpos = rpos;
         
         if (mpos == ipos) /* This ends the loop */

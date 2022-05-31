@@ -9,14 +9,14 @@ typedef struct Heap_ {
     int size;
     
     int (*compare) (const void *key1, const void *key2);
-    int (*destroy) (void *data);
+    void (*destroy) (void *data);
 
     void **tree;
 } Heap;
 
 /* heap_init: Initializes the heap specified by heap. 
    head: The data structure
-   compare: To compare the data This function should return 1 if key1 > key2,
+   compare: This function should return 1 if key1 > key2,
             0 if key1 = key2, and –1 if key1 < key2 for a top-heavy heap.
    destroy: To destroy the data structure
    complexity: Is O(1)
