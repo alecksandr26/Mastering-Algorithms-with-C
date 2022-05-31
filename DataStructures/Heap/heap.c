@@ -124,14 +124,15 @@ int heap_extract (Heap *heap, void **data)
     /* Copy the last node to the root */
     heap->tree[0] = save;
 
-    /* calculate the sizes */
-    ipos = 0;
-    lpos = heap_left(ipos);
-    rpos = heap_right(ipos);
     
+    ipos = 0;
     
     /* And now reorder the list */
     while (1) {
+        /* calculate the sizes */
+        lpos = heap_left(ipos);
+        rpos = heap_right(ipos);
+    
         if ((lpos < heap_size(heap)) && (heap->compare(heap->tree[lpos], heap->tree[ipos]) > 0))
             mpos = lpos;
         else
@@ -155,9 +156,4 @@ int heap_extract (Heap *heap, void **data)
 
     return 0;
 }
-
-
-
-
-
 
