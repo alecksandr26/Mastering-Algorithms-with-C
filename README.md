@@ -13,5 +13,6 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 7. [HashTable](./DataStructures/HashTable)
 8. [BinaryTree](./DataStructures/BinaryTree)
 9. [BinarySearchTrees](./DataStructures/BinarySearchTrees)
+10. [Heap](./DataStructures/Heap)
 # Book:
-[Mastering Algorithms with C](./Book/)
+[Mastering Algorithms with C](./Book)
