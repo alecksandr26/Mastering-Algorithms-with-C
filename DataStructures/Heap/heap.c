@@ -129,7 +129,7 @@ int heap_extract (Heap *heap, void **data)
     
     /* And now reorder the list */
     while (1) {
-        /* calculate the sizes */
+        /* calculate the indexes */
         lpos = heap_left(ipos);
         rpos = heap_right(ipos);
     
