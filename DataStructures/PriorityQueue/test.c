@@ -27,6 +27,7 @@ int main()
     
     pqueue_init(&pq, &compare, &destroy);
     
+    
     return 0;
 }
 
