@@ -15,5 +15,6 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 9. [BinarySearchTrees](./DataStructures/BinarySearchTrees)
 10. [Heap](./DataStructures/Heap)
 11. [Priority Queue](./DataStructures/PriorityQueue)
+12. [Graph](./DataStructures/Graphs)
 # Book:
 [Mastering Algorithms with C](./Book)
