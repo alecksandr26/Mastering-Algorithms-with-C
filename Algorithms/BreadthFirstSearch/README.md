@@ -1,0 +1,2 @@
+# Breadth First Search
+Graphs play an important part in solving many networking problems. One problem, for example, is determining the best way to get from one node to another in an internet, a network of gateways into other networks. One way to model an internet is using an undirected graph in which vertices represent nodes, and edges represent connections between the nodes. With this model, we can use breadth-first search to help determine the smallest number of traversals, or hops, between various nodes.
