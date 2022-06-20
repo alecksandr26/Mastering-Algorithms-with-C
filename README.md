@@ -3,6 +3,7 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 # Algorithms:
 1. [Insertion Sort](./Algorithms/InsertionSort/)
 2. [Binary Tree Traversals](./Algorithms/TreeTraversals)
+3. [Breadth First Search](./Algorithms/BreadthFirstSearch)
 # Data Structures:
 1. [Simple Linked List](./DataStructures/LinkedList/)
 2. [Doubly Linked List](./DataStructures/DoublyLinkedList/)
