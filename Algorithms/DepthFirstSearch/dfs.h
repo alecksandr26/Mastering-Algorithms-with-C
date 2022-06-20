@@ -1,9 +1,9 @@
-
-#ifndef __BFS_H__
-#define __BFS_H__
+#ifndef __DFS_H__
+#define __DFS_H__
 
 #include "../../DataStructures/Graphs/graphs.h"
 #include "../../DataStructures/LinkedList/linkedlist.h"
+
 
 typedef enum {
     gray,
@@ -11,15 +11,14 @@ typedef enum {
     white
 } VertexColor;
 
-
-
 typedef struct {
     void *data;
     VertexColor color;
-    int hops;
-} BfsVertex;
+} DfsVertex;
 
 
-int bfs(Graph *graph, BfsVertex *start, List *hops);
+int dfs(Graph *graph, List *ordered);
 
 #endif
+
+
