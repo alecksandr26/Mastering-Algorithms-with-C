@@ -5,6 +5,13 @@
 #include "../../DataStructures/Graphs/graphs.h"
 #include "../../DataStructures/LinkedList/linkedlist.h"
 
+typedef enum {
+    gray,
+    black,
+    white
+} VertexColor;
+
+
 
 typedef struct {
     void *data;
@@ -15,7 +22,6 @@ typedef struct {
 
 
 
-
-
+int bfs(Graph *graph, BfsVertex *start, List *hops);
 
 #endif
