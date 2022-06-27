@@ -1,5 +1,7 @@
 # Mastering-Algorithms-with-C
 Its just a bitagora of all the algorithms from the book called "Mastering Algorithms with C - Kyle Loudon"
+# Implementations:
+1. [Directory Listing](./Implementations/DirectoryListings)
 # Algorithms:
 1. [Insertion Sort](./Algorithms/InsertionSort/)
 2. [Binary Tree Traversals](./Algorithms/TreeTraversals)
