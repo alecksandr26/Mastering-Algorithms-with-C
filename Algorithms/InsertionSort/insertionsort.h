@@ -17,6 +17,7 @@
  * osize: The size of each object 
  * compare: Is a function that you should provied to know how we are going to 
  * sort the list
+ * complexity: Is O(n^2) where n is the number of elements
 */
 void inssort (void *data, size_t size, size_t osize,
 			  bool (*compare)(const void *obj1, const void *obj2));
