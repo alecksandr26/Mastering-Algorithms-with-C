@@ -4,7 +4,6 @@
 #include "../../DataStructures/Graphs/graphs.h"
 #include "../../DataStructures/LinkedList/linkedlist.h"
 
-
 typedef enum {
     gray,
     black,
@@ -15,7 +14,6 @@ typedef struct {
     void *data;
     VertexColor color;
 } DfsVertex;
-
 
 int dfs(Graph *graph, List *ordered);
 
