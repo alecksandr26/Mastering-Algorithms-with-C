@@ -5,6 +5,7 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 2. [Binary Tree Traversals](./Algorithms/TreeTraversals)
 3. [Breadth First Search](./Algorithms/BreadthFirstSearch)
 4. [Depth First Search](./Algorithms/DepthFirstSearch)
+5. [Quick Sort](./Algorithms/QuickSort)
 # Data Structures:
 1. [Simple Linked List](./DataStructures/LinkedList/)
 2. [Doubly Linked List](./DataStructures/DoublyLinkedList/)
