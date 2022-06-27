@@ -10,7 +10,7 @@
  * compare: The function pointer compare specifies a user-defined function to compare elements. It should per- form in a manner similar to that described for issort.
  * complexity: Is O(logN * N) where N is the number of elements
  */
-int qsort(void *data, int size, int esize, int i, int k, int (*compare)
+int qksort(void *data, int size, int esize, int i, int k, int (*compare)
            (const void *key1, const void *key2));
 
 

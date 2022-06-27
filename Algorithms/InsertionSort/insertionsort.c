@@ -11,7 +11,7 @@
  * compare: Is a function which is going to return boolean value
 */
 void inssort (void *data, size_t size, size_t osize,
-			  bool (*compare)(const void *obj1, const void *obj2))
+			  int (*compare)(const void *obj1, const void *obj2))
 {
 	unsigned char *arr = data; /* here we get the void pointer */
 	void *temp; /* Here we are going to pass the memory to the object */

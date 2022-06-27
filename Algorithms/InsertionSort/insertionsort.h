@@ -20,7 +20,7 @@
  * complexity: Is O(n^2) where n is the number of elements
 */
 void inssort (void *data, size_t size, size_t osize,
-			  bool (*compare)(const void *obj1, const void *obj2));
+			  int (*compare)(const void *obj1, const void *obj2));
 
 
 /* For example if you want to sort an array of numbers you should provied 
