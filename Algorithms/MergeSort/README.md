@@ -1,2 +1,3 @@
 # Merge Sort
-Merge sort is another example of a divide-and-conquer sorting algorithm. Like quicksort, it relies on making comparisons between elements to sort them. However, it does not sort in place.
+Merge sort is another example of a divide-and-conquer sorting algorithm. Like quicksort, it relies on making comparisons between elements to sort them. However, it does not sort in place.<br />
+Returning once again to the example of sorting a pile of canceled checks by hand, we begin with an unsorted pile that we divide in half. Next, we divide each of the resulting two piles in half and continue this process until we end up with one check in every pile. Once all piles contain a single check, we merge the piles two by two so that each new pile is a sorted combination of the two that were merged. Merging continues until we end up with one big pile again. At this point, the checks are sorted.
