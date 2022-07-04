@@ -10,6 +10,7 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 5. [Quick Sort](./Algorithms/QuickSort)
 6. [Merge Sort](./Algorithms/MergeSort)
 7. [Count Sort](./Algorithms/CountingSort)
+8. [Radix Sort](./Algorithms/RadixSort)
 # Data Structures:
 1. [Simple Linked List](./DataStructures/LinkedList/)
 2. [Doubly Linked List](./DataStructures/DoublyLinkedList/)
