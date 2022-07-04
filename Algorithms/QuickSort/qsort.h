@@ -11,7 +11,7 @@
  * complexity: Is O(logN * N) where N is the number of elements
  */
 int qksort(void *data, int size, int esize, int i, int k, int (*compare)
-           (const void *key1, const void *key2));
+           (const void *key1, const void *key2), void (*print_arr)(int arr[], int size));
 
 
 #endif

@@ -14,7 +14,7 @@ void print_arr(int arr[], int size)
     printf("\n");
 }
 
-/* comapre: my function to compare two values */
+/* compare: my function to compare two values */
 int compare(const int *int1, const int *int2)
 {
     if (*int1 > *int2)
@@ -27,9 +27,9 @@ int compare(const int *int1, const int *int2)
 
 int main()
 {
-    int arr[] = {5, 4, 3, 2, 1};
-    print_arr(arr, 5);
-    printf("%i\n", qksort((void *) arr, 5, sizeof(int), 0, 4, &compare));
-    print_arr(arr, 5);
+    int arr[] = {24, 52, 11, 94, 28, 36, 14, 80};
+    print_arr(arr, 8);
+    printf("%i\n", qksort((void *) arr, 8, sizeof(int), 0, 7, &compare, &print_arr));
+    print_arr(arr, 8);
     return 0;
 }

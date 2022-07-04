@@ -14,6 +14,7 @@ static int compare_int(const void *int1, const void *int2)
 {
     if (*(const int *) int1 > *(const int *) int2)
         return 1;
+    
     else if (*(const int *) int1 < *(const int *) int2)
         return -1;
     
@@ -45,9 +46,10 @@ static int partition(void *data, int esize, int i, int k, int (*compare)
     r[1] = (rand() % (k - i + 1)) + i;
     r[2] = (rand() % (k - i + 1)) + i;
 
+    /* Get a pivot */
     inssort(r, 3, sizeof(int), &compare_int);
     memcpy(pval, &a[r[1] * esize], esize);
-
+    printf("%i\n", *(int *) pval);
     /* create two partition around the partition value */
     i--;
     k++;
@@ -56,6 +58,7 @@ static int partition(void *data, int esize, int i, int k, int (*compare)
         do { /* move to the left until an element is found in the wrong partition */
             k--;
         } while (compare(&a[k * esize], pval) > 0);
+        
 
         do { /* move to the right until an element is found in the wrong partition */
             i++;
@@ -73,7 +76,6 @@ static int partition(void *data, int esize, int i, int k, int (*compare)
     free(pval);
     free(temp);
 
-
     return k;
 }
 
@@ -87,15 +89,16 @@ static int partition(void *data, int esize, int i, int k, int (*compare)
  * complexity: Is O(logN * N) where N is the number of elements
  */
 int qksort(void *data, int size, int esize, int i, int k, int (*compare)
-           (const void *key1, const void *key2))
+           (const void *key1, const void *key2), void (*print_arr)(int arr[], int size))
 {
     int j;
 
     while (i < k) {
-        /* determine where to partition the elements */
+        print_arr((int *) data, size);
+        /* Selected the pivot and partition the list */
         if ((j = partition(data, esize, i, k,  compare)) < 0)
             return -1;
-        if (qksort(data, size, esize, i, j, compare) < 0)
+        if (qksort(data, size, esize, i, j, compare, print_arr) < 0)
             return -1;
         i = j + 1;
     }
