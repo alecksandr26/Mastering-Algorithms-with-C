@@ -11,6 +11,7 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 6. [Merge Sort](./Algorithms/MergeSort)
 7. [Count Sort](./Algorithms/CountingSort)
 8. [Radix Sort](./Algorithms/RadixSort)
+9. [Binary Search](./Algorithms/BinarySearch)
 # Data Structures:
 1. [Simple Linked List](./DataStructures/LinkedList/)
 2. [Doubly Linked List](./DataStructures/DoublyLinkedList/)
