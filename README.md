@@ -26,5 +26,6 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 11. [Priority Queue](./DataStructures/PriorityQueue)
 12. [Graph](./DataStructures/Graphs)
 # Numerical Methods 
+1. [Polinomial Interpolation](./NumericalMethods/PolinomialInterpolation)
 # Book:
 [Mastering Algorithms with C](./Book)
