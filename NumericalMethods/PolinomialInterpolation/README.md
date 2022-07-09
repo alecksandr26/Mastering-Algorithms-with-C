@@ -5,7 +5,7 @@ There are many problems that can be described in terms of a function. However, o
 
 Once we have determined the coefficients of the interpolating polynomial pn(z), we evaluate the polynomial once for each point at which we would like to know the value of f. For example, say we know the values of f at four points: x0 = –3.0, f (x0) = –5.0; x1 = –2.0, f (x1) = –1.1; x2 = 2.0, f (x2) = 1.9; and x3 = 3.0, f (x3) = 4.8; and we would like to know the value of f at z0 = –2.5, z1 = 0.0, z2 = 1.0, and z3 = 2.5. Since we know four points along f, the interpolating polynomial will have a degree of 3. Figure 13-3 is the divided-difference table for determining the coefficients of p3(z).
 
-### Some videos
+### Some videos and links
 - [Newton Interpolation and Divided Differences](https://www.youtube.com/watch?v=S7QIU0i1qLE)
 - [Newton polynonomial](https://en.wikipedia.org/wiki/Newton_polynomial)
 - [Divided differences](https://en.wikipedia.org/wiki/Divided_differences)
