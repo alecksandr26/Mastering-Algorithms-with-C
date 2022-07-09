@@ -12,7 +12,7 @@
    complexity: O(mn2), where m is the number of values to determine and n is
    the number of points at which values are known
  */
-int interpol (const double *x, const double *fx, int n, double *z, double *pz, int m);
+int interpol(const double *x, const double *fx, int n, double *z, double *pz, int m);
 
 
 

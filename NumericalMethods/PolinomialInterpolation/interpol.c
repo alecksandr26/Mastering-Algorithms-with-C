@@ -14,7 +14,7 @@
    complexity: O(mn2), where m is the number of values to determine and n is
    the number of points at which values are known
  */
-int interpol (const double *x, const double *fx, int n, double *z, double *pz, int m)
+int interpol(const double *x, const double *fx, int n, double *z, double *pz, int m)
 {
     double term, *table, *coeff;
     int i, j, k;
@@ -40,6 +40,7 @@ int interpol (const double *x, const double *fx, int n, double *z, double *pz, i
     for (k = 1; k < n; k++) {
         for (i = 0; i < n - k; i++) {
             j = i + k;
+            /* Slope equation */
             table[i] = (table[i + 1] - table[i]) / (x[j] - x[i]);
         }
 
