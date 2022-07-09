@@ -9,3 +9,6 @@ Once we have determined the coefficients of the interpolating polynomial pn(z), 
 - [Newton Interpolation and Divided Differences](https://www.youtube.com/watch?v=S7QIU0i1qLE)
 - [Newton polynonomial](https://en.wikipedia.org/wiki/Newton_polynomial)
 - [Divided differences](https://en.wikipedia.org/wiki/Divided_differences)
+
+### An example
+![image](https://user-images.githubusercontent.com/66882463/178087142-ad0b3c91-2601-40f3-8882-f429ab551243.png)
