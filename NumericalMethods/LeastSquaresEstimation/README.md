@@ -1,0 +1,2 @@
+# Least Squares
+Least-squares estimation determines estimators b1 and b0 for a function y(x) = b1x + b0 so that y(x) is a best-fit line through a set of n points (x0, y0 ), . . ., (x n – 1, y n – 1). A best-fit line using least-squares estimation minimizes the sum of squared vertical distances between each point (xi, yi), i = 0, . . ., n – 1 and a corresponding point (xi, y(x i )) along y(x). This is one way of defining a line so that each point (xi, yi ) is as close as possible to it.
