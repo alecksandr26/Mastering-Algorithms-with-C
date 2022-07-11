@@ -27,5 +27,6 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 12. [Graph](./DataStructures/Graphs)
 # Numerical Methods 
 1. [Polinomial Interpolation](./NumericalMethods/PolinomialInterpolation)
+2. [Least Squares](./NumericalMethods/LeastSquaresEstimation)
 # Book:
 [Mastering Algorithms with C](./Book)
