@@ -28,5 +28,6 @@ Its just a bitagora of all the algorithms from the book called "Mastering Algori
 # Numerical Methods 
 1. [Polinomial Interpolation](./NumericalMethods/PolinomialInterpolation)
 2. [Least Squares](./NumericalMethods/LeastSquaresEstimation)
+3. [Newton’s Method](./NumericalMethods/SolutionOfEquations)
 # Book:
 [Mastering Algorithms with C](./Book)
